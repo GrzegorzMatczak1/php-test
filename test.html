@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Rejestracja klienta</title>
+<meta charset="UTF-8">
+<style>
+#wyb {
+ font-weight: bold;
+ font-size: 12pt;
+}
+</style>
+</head>
+<body>
+<form action="rezerwacje.php" method="post">
+<p id="wyb">Rejestracja stolika:</p>
+Numer Stolika:<br>
+<input type="number" name="nr_stolika" value="" size="30" required><br>
+Data rezerwacji:<br>
+<input type="date" name="data_rez" id="" required><br>
+Liczba Osób:<br>
+<input type="number" name="liczba_osob" value="" size="5" required><br>
+Numer Telefonu:<br>
+<input type="text" name="telefon" value="" size="30" required><br>
+
+<p><input type="submit" value="REZERWUJ" name="rezerwuj">
+<input type="reset" value="Wyczyść" name="zeruj"></p>
+</form>
+</body>
+</html>
